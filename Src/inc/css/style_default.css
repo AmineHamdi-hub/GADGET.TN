@@ -1,0 +1,136 @@
+/* Global reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    padding: 20px 30px;
+    color: white;
+}
+
+.navbar .logo {
+    width: 150px;
+    height: auto;
+}
+
+.admin-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.admin-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #495057;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.admin-section a:hover {
+    background-color: #6c757d;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    gap: 10px;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #495057;
+}
+
+h3 {
+    text-align: center;
+    margin: 15px 0;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Content wrapper */
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .admin-section {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .login-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
