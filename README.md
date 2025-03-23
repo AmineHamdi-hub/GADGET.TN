@@ -1,4 +1,4 @@
-# GADGET.TN(native php project
+# GADGET.TN(native php project)
 
 ## Overview
 This project is a PHP-based web application following the Model-View-Controller (MVC) architecture. It includes user authentication, product management, and a shopping cart system. It is built using PHP and MySQL with PDO for database interactions.
